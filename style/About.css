@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Gideon Roman','Martian Mono','Open Sans','Poppins';
+}
+a{
+    color: rgb(255, 255, 255);
+    text-decoration-line: none;
+}
+em{
+    color: #a4c639;
+}
+.btn{
+    background-color:#a4c639 ;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+}
+.btn:hover{
+    background-color: white;
+    color: #a4c639;
+}
+.btn1{
+    background-color:#a4c639 ;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    border: solid white;
+}
+.btn1:hover{
+    background-color: white;
+    color: #a4c639;
+}
+.btn2{
+    background-color:#a4c639 ;
+    border-radius: 30px;
+    color: white;
+    padding: 10px 30px;
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 700;
+    border: solid white;
+}
+.btn2:hover{
+    background-color: white;
+    color: #a4c639;
+}
+.fnav{
+    background-color: #a4c639;
+    color: white;
+    display: grid;
+    grid-template-columns: 20% 50% 4% 4% 4% 4% ;
+    padding-left: 10%;
+    padding-top: 10px;
+}
+.fnav h3{
+    display: inline;
+}
+.fnav img{
+    vertical-align: middle;
+    border-left: rgba(255, 255, 255, 0.541) dotted ;
+}
+.home{
+    background-image: url("../imgs/sbg.jpg");
+    height: 550px;
+}
+.snav {
+    color: white;
+    display: grid;
+    grid-template-columns: 10% 34% 1fr;
+    padding: 2% 0;
+    /* position: fixed; */
+}
+.snav h2{
+    grid-column: 2;
+}
+.snav ul li{
+    display: inline-block;
+    margin: 0 5%;
+    font-size: 23px;
+}
+a:active{
+    color: #a4c639;
+    text-decoration-line: underline;
+}
+.home .card{
+    /* margin: 5% 10%; */
+    width: 35%;
+    margin: auto;
+    margin-top: 10%;
+    color: white;
+    line-height: 2;
+    text-align: center;
+    /* background-color: bisque; */
+}
+.home .card h1{
+    font-size: 40px;
+    line-height: 1.25;
+    font-weight:900 ;
+
+}
+.br, .bbr{
+    border: none;
+    border-radius: 22px;
+    margin: 10px;
+    padding: 10px;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin: 8% 10%;
+
+}
+.container .col{
+    line-height: 1.77;
+    font-size: 20px;
+}
+.s-row{
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    background-color: #eee;
+    padding: 5% 10%;
+    gap: 20px;
+}
+.txt{
+    background-color: white;
+    padding: 15px;
+}
+.carde{
+    background-color: white;
+    width: min-content;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.solution{
+    background-image: url("../imgs/bg2.jpg");
+    background-attachment: fixed;
+    position: center center;
+    height: 670px;
+    font-size: 25px;
+}
+.solution .container{
+    padding: 5% 0 ; 
+    /* margin: 5% 10%; */
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    color: white;
+    line-height: 1.75;
+}
+.fourth{
+    /* background: #000; */
+    padding: 15% 9% ;
+    /* background-color: #184f51; */
+    display: grid;
+    grid-template-columns: repeat(2,auto);
+    grid-template-rows: repeat(2, 70%);
+    gap:9% 4% ;
+}
+.solution .container .col{
+    /* background-color: blue; */
+    padding: 5px;
+}
+.solution .container .col h2{
+    font-size: 46px;
+    font-weight: 740;
+}
+.cards{
+    text-align: center;
+    background-color: rgba(220, 220, 220, 0.505);
+}
+
+
+.head2{
+    text-align: center;
+    font-size: 25px;
+    margin: 2%;
+}
+.say-apout{
+    background-color: #eee;
+    padding: 5% 10%;
+
+}
+.say-apout .icon{
+    /* background-color: white; */
+    display: grid;
+    grid-template-columns: repeat(2, 40%);
+    padding:1%;
+    gap:20px;
+    justify-content: center;
+
+    
+}
+.say-apout .col{
+    background-color: white;
+    padding: 7%;
+    font-size: 22px;
+    text-align: center;
+}
+
+
+footer{
+    background-color: #111;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding: 5%;
+}
+footer h3{
+    font-size: 28px;
+    font-weight: 660;
+    margin: 2%;
+}
+footer .btn2{
+    border: none;
+}
+footer ul{
+    line-height: 2.5;
+}
+footer span{
+    font-size: 20px;
+}
